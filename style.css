@@ -8,3 +8,12 @@
 #add-movie {
 	margin: 10px 0;
 }
+
+.movie-gif {
+	display: inline-block;
+	margin: 10px;
+}
+
+.gif {
+	height: 200px;
+}

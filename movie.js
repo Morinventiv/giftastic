@@ -39,9 +39,7 @@ $(document).ready(function () {
 				gifImage.attr('data-still', imgUrlStill);
 				gifImage.attr('data-animate', imgUrlAnimate);
 				gifImage.attr('data-state', 'still');
-				gifImage.attr('width', '300px');
 				gifImage.addClass('gif');
-				// gifImage.addClass('img-responsive');
 				gifImage.addClass('img-thumbnail');
 
 				//append the gif image to the movieDiv
@@ -69,8 +67,6 @@ $(document).ready(function () {
 		});
 	}
 
-
-
 	// display movie buttons
 	function makeButtons() {
 
@@ -95,6 +91,7 @@ $(document).ready(function () {
 
 		// get new movie from input box
 		var movie = $("#movie-input").val().trim();
+
 		// add new movie to movieList array
 		movieList.push(movie);
 
@@ -108,8 +105,6 @@ $(document).ready(function () {
 
 	//call functions
 	makeButtons();
-
-	
 
 	//document.ready end brackets
 });
